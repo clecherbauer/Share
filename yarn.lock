@@ -3717,6 +3717,11 @@
     babel-runtime "^6.5.0"
     prop-types "^15.6.0"
 
+"@vyzn-tech/vyzn-gui@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@vyzn-tech/vyzn-gui/-/vyzn-gui-1.0.2.tgz#9ab133b619b4b2470afd7483c896a8d447c9ad34"
+  integrity sha512-J715fgc/H2anZz5GLBZj5I8sOa1LzSJleFbIfLnd8Sx6FcbMRnm5fkNsrBPmdY/mFvq5FKMnFtshijTOry91SQ==
+
 "@webassemblyjs/ast@1.11.1":
   version "1.11.1"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.11.1.tgz#2bfd767eae1a6996f432ff7e8d7fc75679c0b6a7"
@@ -13497,11 +13502,6 @@ vm-browserify@^1.0.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
-
-vyzn-ui@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/vyzn-ui/-/vyzn-ui-1.0.0.tgz#cc920166e720f6815dbc5e88058bb1c5874ad36d"
-  integrity sha512-tvNYNU0Kb0CyvshSYniw6ZZPoy3gzV+/XexyYsjtKSHzJmaoEunmys8luPd9y8yerCBi0qAnd3QOYop7wcGd9A==
 
 w3c-hr-time@^1.0.2:
   version "1.0.2"

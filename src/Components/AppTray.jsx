@@ -5,7 +5,7 @@ import React, {useCallback, useState} from 'react'
  * @return {object} React component
  */
 export default function AppTray() {
-  const [frameSource, setFrameSource] = useState('/widget/stickerpicker.html')
+  const [frameSource, setFrameSource] = useState('/vyzn-gui/')
   const appFrameRef = useCallback((elt) => {
     if (elt) {
       initMatrix(elt)

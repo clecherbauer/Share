@@ -1,6 +1,6 @@
 {
   "name": "bldrs",
-  "version": "1.0.0-r442",
+  "version": "1.0.0-r445",
   "main": "src/index.jsx",
   "homepage": "https://github.com/bldrs-ai/Share",
   "bugs": {
@@ -11,7 +11,7 @@
     "build-storybook": "shx mkdir -p docs && build-storybook -o docs/sb",
     "build-share": "yarn write-new-version && node config/build.js && yarn build-share-copy-web-asm",
     "build-share-copy-web-asm": "shx cp node_modules/web-ifc/*.wasm docs/static/js",
-    "build-share-extract-vyzn": "shx cp -r node_modules/vyzn-ui docs",
+    "build-share-extract-vyzn": "shx cp -r node_modules/@vyzn-tech/vyzn-gui/dist docs/vyzn-gui",
     "husky-init": "husky install",
     "lint": "yarn eslint src",
     "precommit": "yarn lint && yarn test",
@@ -44,7 +44,7 @@
     "react-router-dom": "^6.3.0",
     "remark-gfm": "^3.0.1",
     "three": "^0.135",
-    "vyzn-ui": "^1.0.0",
+    "@vyzn-tech/vyzn-gui": "^1.0.2",
     "web-ifc-viewer": "^1.0.209",
     "web-vitals": "^2.1.0",
     "zustand": "^4.0.0"
